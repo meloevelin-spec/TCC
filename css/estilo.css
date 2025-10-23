@@ -208,3 +208,42 @@ footer {
   margin-right: 40px;
   text-align: justify;
 }
+
+.conteudo-artigo {
+  max-width: 900px;
+  margin: 60px auto;
+  padding: 0 20px;
+  line-height: 1.7;
+}
+
+.conteudo-artigo h1 {
+  color: #2f6c37;
+  font-size: 32px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.conteudo-artigo p {
+  font-size: 18px;
+  text-align: justify;
+  margin-bottom: 16px;
+}
+
+.voltar {
+  display: block;
+  text-align: center;
+  margin: 40px 0;
+}
+
+.voltar a {
+  background: #1a4e22;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+.voltar a:hover {
+  background: #43914d;
+}
